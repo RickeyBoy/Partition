@@ -7,11 +7,14 @@ The project AppDelegate and View Controller are written in Swift. Swift cannot t
 
 ###Requirements
 iOS 9.0+
+
 xCode 8
 
 ###Installation 
 To run the project you need to install the OpenCV framework using Cocoapods    
+
 1. You have to first install CocoaPods.
+
 2. Run `pod install` in this directory to install OpenCV for the project. From then on, always open the project in XCode from the `SwiftStitch.xcworkspace` file that the pod install creates.
 
 ###Usage
@@ -23,6 +26,7 @@ The app has almost no user interface. When it starts it will automatically cut t
 
 ###More   
 Source Images Folder Name: images
+
 Output Images Folder Name: datImages
 
 

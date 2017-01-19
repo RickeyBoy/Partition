@@ -14,7 +14,9 @@ To run the project you need to install the OpenCV framework using Cocoapods
 1. You have to first install CocoaPods.
 2. Run 'pod install' in this directory to install OpenCV for the project. From then on, always open the project in XCode from the `SwiftStitch.xcworkspace` file that the pod install creates.
 
-__Usage__  
+__Usage__
+Please first unzip dataset_jaccount.
+
 OpenCVStitch is a very simple iOS/openCV example showing basic use of the Stitcher class. The c++ code is adapted from a sample included with the openCV distribution.  
 
 The app has almost no user interface. When it starts it will automatically cut the image of CAPTCHAs and print the source path and output path.
